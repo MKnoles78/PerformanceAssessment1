@@ -10,6 +10,10 @@ public class PerformanceAssessment1 {
 		Scanner input = new Scanner(System.in);
 
 		// takes in input from user
+		System.out.print("Please enter your age: ");
+		int age = input.nextInt();
+
+		System.out.printf("Your age is: %d%n", age);
 		// if input is less than one or greater than 100 exception occurs
 		// Output message Invalid age. Please try again
 		// Continues to out Invalid age, until valid input received
