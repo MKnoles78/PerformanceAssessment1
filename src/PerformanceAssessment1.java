@@ -13,7 +13,12 @@ public class PerformanceAssessment1 {
 		System.out.print("Please enter your age: ");
 		int age = input.nextInt();
 
-		System.out.printf("Your age is: %d%n", age);
+		if (age > 1 && age < 100) {
+			System.out.printf("Your age is: %d%n", age);
+		} else {
+			System.out.print("Your age is not within range, try again");
+		}
+
 		// if input is less than one or greater than 100 exception occurs
 		// Output message Invalid age. Please try again
 		// Continues to out Invalid age, until valid input received
