@@ -1,3 +1,6 @@
+
+//CIS218 Unit 4.5 PA: PerformanceAssessment2.java
+//Author Mike Knoles
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -14,7 +17,7 @@ public class PerformanceAssessment2 {
 			int age = input.nextInt();
 
 			try {
-				// if input is less than one or greater than 100 exception occurs
+				// if input is less than 21 or greater than 100 exception occurs
 				if (age > 1 && age < 100) {
 					System.out.printf("%nYour age is: %d%n", age);
 					invalid = false;
