@@ -10,11 +10,12 @@ public class PerformanceAssessment2 {
 		// Ask user for their age
 		Scanner input = new Scanner(System.in);
 		boolean invalid = false;
+		int age;
 
 		do {
 			// takes in input from user
 			System.out.print("Please enter your age: ");
-			int age = input.nextInt();
+			age = input.nextInt();
 
 			try {
 				// if input is less than 21 or greater than 100 exception occurs
