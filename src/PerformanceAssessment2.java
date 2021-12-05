@@ -35,8 +35,6 @@ public class PerformanceAssessment2 {
 					System.out.println("\nThat age is too high. Please try again.\n");
 				}
 
-			} finally {
-				System.err.println("Finally executed.");
 			}
 
 		} while (invalid); // Continues to output Invalid age, until valid input received
