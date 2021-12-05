@@ -27,7 +27,7 @@ public class PerformanceAssessment2 {
 					throw new InputMismatchException();
 				} // end else
 			} catch (InputMismatchException inputMismatchException) {
-				// Output message Invalid age. Please try again
+				// Output message: That age is too low or too high. Please try again
 				if (age < 21) {
 					System.out.printf("%n%s: You must enter a valid age.%n", inputMismatchException);
 					System.out.println("\nThat age is too low. Please try again.\n");
